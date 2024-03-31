@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listings</title>
+
+    <!-- <link rel="stylesheet" href="dist/sp.css" /> -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+ 
+  <body>
+    <!-- +++++++ -->
+    <div class="main">
+      <div class="wrapper">
+        <!-- ====sidebar===== -->
+
+        <aside>
+          <div class="logo">
+            <img src="./dist/img/Vector.png" alt="logo-img" />
+          </div>
+
+          <div class="line"></div>
+
+          <nav>
+            <ul>
+              <li>
+                <a href="index.html"
+                  ><img
+                    src="./dist/img/icon/dash.svg"
+                    alt="Dashboard-img"
+                  />Dashboard</a
+                >
+              </li>
+
+              <li class="menu1">
+                <a href="listings.html"
+                  ><img
+                    src="./dist/img/icon/listingactive.svg"
+                    alt="listing-img"
+                  />Listings</a
+                >
+              </li>
+
+              <li>
+                <a href="agents.html"
+                  ><img
+                    src="./dist/img/icon/Group.svg"
+                    alt="Group-img"
+                  />Agents</a
+                >
+              </li>
+              <div class="line2"></div>
+
+              <li>
+                <a href="settings.html"
+                  ><img
+                    src="./dist/img/icon/settings.svg"
+                    alt="settings-img"
+                  />Settings</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <!-- ========user======== -->
+          <div class="user">
+            <div class="user_img">
+              <img src="./dist/img/userimg.png" alt="userimg-img" />
+              <div class="pen">
+                <img
+                  src="./dist/img/icon/usereditpen.svg"
+                  alt="usereditpen-img"
+                />
+              </div>
+            </div>
+            <p>Welcome,</p>
+            <h6>Gaurav Tongaria</h6>
+            <a href="#">Log out</a>
+          </div>
+          <!-- ============== -->
+        </aside>
+        <!-- ====sidebar=end==== -->
+
+        <!-- =======header====== -->
+        <div class="right">
+          <header>
+            <h2 class="phonenone">Listings</h2>
+
+            <img
+              class="desknone toggel"
+              src="./dist/img/icon/menu-fill.svg"
+              alt="menu/img"
+            />
+
+            <img class="desknone" src="./dist/img/Vector.png" alt="logo-img" />
+            <a class="userimg desknone" href="#"
+              ><img src="./dist/img/icon/user-fill.svg" alt="user.img"
+            /></a>
+          </header>
+          <!-- =====main-content=============== -->
+          <!-- =====main-content=============== -->
+          <section class="main_content">
+            <div class="black_screen"></div>
+
+            <form action="#">
+              <div class="filter">
+                <h3>
+                  <img
+                    src="./dist/img/icon/filter.svg"
+                    alt="filter/img"
+                  />Filters
+                </h3>
+                <div class="filter_top">
+                  <!-- ==== -->
+                  <div class="fitem">
+                    <label for="name">ID or name</label>
+                    <input name="" type="text" id="name" />
+                  </div>
+                  <!-- ========= -->
+                  <!-- ==== -->
+                  <div class="fitem">
+                    <label for="type">Property type</label>
+                    <select class="ddlln-selectt" name="#" id="type">
+                      <option value=""></option>
+                      <option value="">Apartments</option>
+                      <option value="">Houses, Villas, Cottages</option>
+                      <option value="">Agricultural Lands</option>
+                      <option value="">Objects</option>
+                      <option value="">Garages and Parking Space</option>
+                      <option value="">Premises</option>
+                      <option value="">Land</option>
+                    </select>
+                  </div>
+                  <!-- ========= -->
+                  <!-- ==== -->
+                  <div class="fitem">
+                    <label for="location">Location</label>
+                    <input name="" type="text" id="location" />
+                  </div>
+                  <!-- ========= -->
+                  <!-- ==== -->
+                  <div class="fitem">
+                    <label for="status">Status</label>
+                    <select class="ddllo-selectt" name="#" id="status">
+                      <option value=""></option>
+                      <option value="">xxxx</option>
+                      <option value="">xxxx</option>
+                      <option value="">xxxx</option>
+                      <option value="">xxxx</option>
+                      <option value="">xxxx</option>
+                      <option value="">xxxx</option>
+                      <option value="">xxxx</option>
+                      <option value="">xxxx</option>
+                    </select>
+                  </div>
+                  <!-- ========= -->
+                </div>
+                <!-- ====filter bottom======= -->
+                <div class="filter_bottom">
+                  <!-- ======= -->
+                  <div class="fitem">
+                    <label for="price">Price range</label>
+                    <div class="to">
+                      <input name="" type="text" id="price" />
+                      <p>To</p>
+                      <input name="" type="text" id="price" />
+                    </div>
+                  </div>
+                  <!-- ========= -->
+                  <!-- ======= -->
+                  <div class="fitem">
+                    <label for="area">Area</label>
+                    <div class="to">
+                      <input name="" type="text" id="area" />
+                      <p>To</p>
+                      <input name="" type="text" id="area" />
+                    </div>
+                  </div>
+                  <!-- ========= -->
+                  <!-- ==== -->
+                  <div class="fitem">
+                    <label for="rooms">No. of rooms</label>
+                    <select class="ddllr-selectt" name="#" id="rooms">
+                      <option value=""></option>
+                      <option value="">1</option>
+                      <option value="">2</option>
+                      <option value="">3</option>
+                      <option value="">4</option>
+                      <option value="">5</option>
+                      <option value="">6</option>
+                    </select>
+                  </div>
+                  <!-- ========= -->
+
+                  <!-- ==== -->
+                  <div class="fitem">
+                    <a href="#!">Search</a>
+                  </div>
+                  <!-- ========= -->
+                </div>
+              </div>
+            </form>
+            <!-- ========== -->
+            <!-- ========== -->
+            <!-- ========== -->
+            <div class="showing_result">
+              <h3>Showing results 1 to 6 out of 32</h3>
+              <div class="res">
+                <table>
+                  <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Location</th>
+                    <th>Price</th>
+                    <th>Status</th>
+                  </tr>
+                  <!-- =========== -->
+                  <tr>
+                    <td><a href="affordable.html">#451215</a></td>
+                    <td>Luxury 3BHK studio appartment</td>
+                    <td>Apartment</td>
+                    <td>Vienna,Austria</td>
+                    <td>€ 8,225/month</td>
+                    <td>
+                      <a href="#"
+                        ><img src="./dist/img/icon/correct.svg" alt="" />
+                        Active</a
+                      >
+                    </td>
+                    <td>
+                      <img
+                        src="./dist/img/icon/threedot.svg"
+                        alt="threedot"
+                        class="ltdots"
+                      />
+                      <div class="threedotpagelist">
+                        <p>
+                          <img
+                            src="./dist/img/icon/edit-line.svg"
+                            alt="edit-line"
+                          />
+                          Edit property details
+                        </p>
+                        <p>
+                          <img
+                            src="./dist/img/icon/delete-bin-2-line.svg"
+                            alt="edit-line"
+                          />
+                          Delete property
+                        </p>
+                        <p>
+                          <img
+                            src="./dist/img/icon/indeterminate-circle-line (1).svg"
+                            alt="indeterminate-line"
+                          />
+                          Deactivate advertisement
+                        </p>
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- ============ -->
+                  <tr>
+                    <td><a href="affordable.html">#451215</a></td>
+                    <td>Luxury 3BHK studio appartment</td>
+                    <td>Apartment</td>
+                    <td>Vienna,Austria</td>
+                    <td>€ 8,225/month</td>
+                    <td>
+                      <a class="pending" href="#"
+                        ><img src="./dist/img/icon/pending.svg" alt="" />
+                        Pending</a
+                      >
+                    </td>
+                    <td>
+                      <img
+                        src="./dist/img/icon/threedot.svg"
+                        alt="threedot"
+                        class="ltdots"
+                      />
+                      <div class="threedotpagelist">
+                        <p>
+                          <img
+                            src="./dist/img/icon/edit-line.svg"
+                            alt="edit-line"
+                          />
+                          Edit property details
+                        </p>
+                        <p>
+                          <img
+                            src="./dist/img/icon/delete-bin-2-line.svg"
+                            alt="edit-line"
+                          />
+                          Delete property
+                        </p>
+                        <p>
+                          <img
+                            src="./dist/img/icon/indeterminate-circle-line (1).svg"
+                            alt="indeterminate-line"
+                          />
+                          Deactivate advertisement
+                        </p>
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- ========== -->
+                  <!-- =========== -->
+                  <tr>
+                    <td><a href="affordable.html">#451215</a></td>
+                    <td>Luxury 3BHK studio appartment</td>
+                    <td>Apartment</td>
+                    <td>Vienna,Austria</td>
+                    <td>€ 8,225/month</td>
+                    <td>
+                      <a href="#"
+                        ><img src="./dist/img/icon/correct.svg" alt="" />
+                        Active</a
+                      >
+                    </td>
+                    <td>
+                      <img
+                        src="./dist/img/icon/threedot.svg"
+                        alt="threedot"
+                        class="ltdots"
+                      />
+                      <div class="threedotpagelist">
+                        <p>
+                          <img
+                            src="./dist/img/icon/edit-line.svg"
+                            alt="edit-line"
+                          />
+                          Edit property details
+                        </p>
+                        <p>
+                          <img
+                            src="./dist/img/icon/delete-bin-2-line.svg"
+                            alt="edit-line"
+                          />
+                          Delete property
+                        </p>
+                        <p>
+                          <img
+                            src="./dist/img/icon/indeterminate-circle-line (1).svg"
+                            alt="indeterminate-line"
+                          />
+                          Deactivate advertisement
+                        </p>
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- ============ -->
+                  <!-- =========== -->
+                  <tr>
+                    <td><a href="affordable.html">#451215</a></td>
+                    <td>Luxury 3BHK studio appartment</td>
+                    <td>Apartment</td>
+                    <td>Vienna,Austria</td>
+                    <td>€ 8,225/month</td>
+                    <td>
+                      <a class="incom" href="#"
+                        ><img
+                          src="./dist/img/icon/information-line.svg"
+                          alt=""
+                        />
+                        Incomplete</a
+                      >
+                    </td>
+                    <td>
+                      <img
+                        src="./dist/img/icon/threedot.svg"
+                        alt="threedot"
+                        class="ltdots"
+                      />
+                      <div class="threedotpagelist">
+                        <p>
+                          <img
+                            src="./dist/img/icon/edit-line.svg"
+                            alt="edit-line"
+                          />
+                          Edit property details
+                        </p>
+                        <p>
+                          <img
+                            src="./dist/img/icon/delete-bin-2-line.svg"
+                            alt="edit-line"
+                          />
+                          Delete property
+                        </p>
+                        <p>
+                          <img
+                            src="./dist/img/icon/indeterminate-circle-line (1).svg"
+                            alt="indeterminate-line"
+                          />
+                          Deactivate advertisement
+                        </p>
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- ============ -->
+                  <!-- =========== -->
+                  <tr>
+                    <td><a href="affordable.html">#451215</a></td>
+                    <td>Luxury 3BHK studio appartment</td>
+                    <td>Apartment</td>
+                    <td>Vienna,Austria</td>
+                    <td>€ 8,225/month</td>
+                    <td>
+                      <a class="decti" href="#"
+                        ><img
+                          src="./dist/img/icon/indeterminate-circle-line.svg"
+                          alt=""
+                        />
+                        Deactivated</a
+                      >
+                    </td>
+                    <td>
+                      <img
+                        src="./dist/img/icon/threedot.svg"
+                        alt="threedot"
+                        class="ltdots"
+                      />
+                      <div class="threedotpagelist">
+                        <p>
+                          <img
+                            src="./dist/img/icon/edit-line.svg"
+                            alt="edit-line"
+                          />
+                          Edit property details
+                        </p>
+                        <p>
+                          <img
+                            src="./dist/img/icon/delete-bin-2-line.svg"
+                            alt="edit-line"
+                          />
+                          Delete property
+                        </p>
+                        <p>
+                          <img
+                            src="./dist/img/icon/indeterminate-circle-line (1).svg"
+                            alt="indeterminate-line"
+                          />
+                          Deactivate advertisement
+                        </p>
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- ============ -->
+                  <!-- =========== -->
+                  <tr>
+                    <td><a href="affordable.html">#451215</a></td>
+                    <td>Luxury 3BHK studio appartment</td>
+                    <td>Apartment</td>
+                    <td>Vienna,Austria</td>
+                    <td>€ 8,225/month</td>
+                    <td>
+                      <a href="#"
+                        ><img src="./dist/img/icon/correct.svg" alt="" />
+                        Active</a
+                      >
+                    </td>
+                    <td>
+                      <img
+                        src="./dist/img/icon/threedot.svg"
+                        alt="threedot"
+                        class="ltdots"
+                      />
+                      <div class="threedotpagelist">
+                        <p>
+                          <img
+                            src="./dist/img/icon/edit-line.svg"
+                            alt="edit-line"
+                          />
+                          Edit property details
+                        </p>
+                        <p>
+                          <img
+                            src="./dist/img/icon/delete-bin-2-line.svg"
+                            alt="edit-line"
+                          />
+                          Delete property
+                        </p>
+                        <p>
+                          <img
+                            src="./dist/img/icon/indeterminate-circle-line (1).svg"
+                            alt="indeterminate-line"
+                          />
+                          Deactivate advertisement
+                        </p>
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- ============ -->
+                  <!-- =========== -->
+                  <tr>
+                    <td><a href="affordable.html">#451215</a></td>
+                    <td>Luxury 3BHK studio appartment</td>
+                    <td>Apartment</td>
+                    <td>Vienna,Austria</td>
+                    <td>€ 8,225/month</td>
+                    <td>
+                      <a href="#"
+                        ><img src="./dist/img/icon/correct.svg" alt="" />
+                        Active</a
+                      >
+                    </td>
+                    <td>
+                      <img
+                        src="./dist/img/icon/threedot.svg"
+                        alt="threedot"
+                        class="ltdots"
+                      />
+                      <div class="threedotpagelist">
+                        <p>
+                          <img
+                            src="./dist/img/icon/edit-line.svg"
+                            alt="edit-line"
+                          />
+                          Edit property details
+                        </p>
+                        <p>
+                          <img
+                            src="./dist/img/icon/delete-bin-2-line.svg"
+                            alt="edit-line"
+                          />
+                          Delete property
+                        </p>
+                        <p>
+                          <img
+                            src="./dist/img/icon/indeterminate-circle-line (1).svg"
+                            alt="indeterminate-line"
+                          />
+                          Deactivate advertisement
+                        </p>
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- ============ -->
+                  <!-- =========== -->
+                  <tr>
+                    <td><a href="affordable.html">#451215</a></td>
+                    <td>Luxury 3BHK studio appartment</td>
+                    <td>Apartment</td>
+                    <td>Vienna,Austria</td>
+                    <td>€ 8,225/month</td>
+                    <td>
+                      <a href="#"
+                        ><img src="./dist/img/icon/correct.svg" alt="" />
+                        Active</a
+                      >
+                    </td>
+                    <td>
+                      <img
+                        src="./dist/img/icon/threedot.svg"
+                        alt="threedot"
+                        class="ltdots"
+                      />
+                      <div class="threedotpagelist">
+                        <p>
+                          <img
+                            src="./dist/img/icon/edit-line.svg"
+                            alt="edit-line"
+                          />
+                          Edit property details
+                        </p>
+                        <p>
+                          <img
+                            src="./dist/img/icon/delete-bin-2-line.svg"
+                            alt="edit-line"
+                          />
+                          Delete property
+                        </p>
+                        <p>
+                          <img
+                            src="./dist/img/icon/indeterminate-circle-line (1).svg"
+                            alt="indeterminate-line"
+                          />
+                          Deactivate advertisement
+                        </p>
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- ============ -->
+                </table>
+              </div>
+              <div class="pagination">
+                <div class="item">
+                  <img src="./dist/img/icon/left.svg" alt="leftarrow" />
+                  <p>1</p>
+                  <p>2</p>
+                  <p>3</p>
+                  <p>4</p>
+                  <p>5</p>
+                  <p>6</p>
+                  <p>7</p>
+                  <p>8</p>
+                  <p>9</p>
+                  <p>10</p>
+                  <img src="./dist/img/icon/right.svg" alt="rightarrow" />
+                </div>
+                <p>Showing page 1 of 14</p>
+              </div>
+            </div>
+          </section>
+          <!-- =====main-content-end=============== -->
+          <!-- =====main-content-end=============== -->
+        </div>
+        <!-- =======header=end===== -->
+      </div>
+    </div>
+
+    <!-- +++++++ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="js/sp.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/listings.js"></script>
+   
+  </body>
+</html>
